@@ -1,0 +1,153 @@
+/* Gaya asas untuk laman web */
+
+
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+header {
+    background-color: thistle;
+    color: black;
+    text-align: center;
+    padding: 8px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color:lavenderblush;
+    border-radius: 3px;
+    box-shadow: 0 9px 30px rgba(0, 0, 0, 0.1);
+    padding: 160px;
+    margin-bottom: 40px;
+}
+
+.image{
+    width: 6%;
+    height: 70%;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  
+  .image img{
+    position: absolute;
+    height: 250px;
+    left: 100%;
+    transform: translate(-50%);
+    bottom: 100;
+    margin-top: -45px;
+  }
+
+h2{
+    margin-left: -130px;
+    margin-top: -150px;
+}
+
+.paragraph{
+    margin-left: 90px;
+    text-align: justify;
+}
+
+picture {
+    width: 6%;
+    height: 70%;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.picture img{
+    position: absolute;
+    height: 200px;
+    left: 23%;
+    transform: translate(-50%);
+    bottom: 100;
+    margin-top: 50px;
+  }
+
+.SKBTP{
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.gambar{
+    width: 6%;
+    height: 80%;
+    position: absolute;
+    left: 100px;
+    bottom: -1300px;
+    margin-top: 10px;
+
+}
+
+.gambar img{
+    position: absolute;
+    height: 220px;
+    left: 270%;
+    transform: translate(-50%);
+    bottom: -1000;
+    margin-bottom: -10px;
+}
+
+.smkbtp{
+    margin-left: 150px;
+    text-align: justify;
+    margin-right: -10px;
+    margin-top: 40px;
+}
+
+.university{
+    width: 8%;
+    height: -100%;
+    position: absolute;
+    left: 100px;
+    bottom: -1600px;
+    margin-top: 10px;
+}
+
+.university img{
+    position: absolute;
+    height: 180px;
+    left: 200%;
+    transform: translate(-50%);
+    bottom: -2000;
+    margin-bottom: -10px;
+}
+
+.UiTM{
+    margin-left: 150px;
+    text-align: justify;
+    margin-right: -10px;
+    margin-top: 40px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: thistle;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

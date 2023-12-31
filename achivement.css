@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.main{
+  width:100%;
+  background: url(picture/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  position: relative;
+}
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .achievement-card {
+    background-color: gainsboro;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .achievement-card h2 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .year {
+    color: green;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .score {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
